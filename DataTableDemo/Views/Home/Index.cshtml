@@ -1,8 +1,18 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<link href="https://cdn.datatables.net/1.10.23/css/jquery.dataTables.min.css" rel="stylesheet" />
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<script type="text/javascript" src="~/lib/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+
+<input type="text" id="txtStudentId" placeholder="Student ID" style="display:none" />
+<input type="text" id="txtName" placeholder="Student Name" style="margin-right:5px" />
+<input type="text" id="txtRoll" placeholder="Student Roll No." style="margin-right:5px" /> 
+
+<button id="btnSave" class="btn btn-success" style="margin-right:5px">SAVE</button>
+<button id="btnAddNew" class="btn btn-primary" style="margin-right:5px">ADD NEW STUDENT</button>
+
+<br/>
+<br/>
+
